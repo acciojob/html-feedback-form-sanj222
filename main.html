@@ -7,20 +7,21 @@
 </head>
 
 <body>
-	<form action="/submit">
-		<label for="name">Enter your name</label>
+	<h1>Feedback Form</h1>
+	<form action="/submit" method="post">
+		<label for="name">Enter your name: </label>
 		<input type="text" required id="name" minlength="3" maxlength="50">
 		<br>
 		
-		<label for="portfolio">Enter your url</label>
+		<label for="portfolio">Enter your url: </label>
 		<input type="url" required id="portfolio">
 		<br>
 
-		<label for="favColor">Enter your fav color</label>
+		<label for="favColor">Enter your fav color: </label>
 		<input type="color" id="favColor">
 		<br>
 
-		<label for="likeness">Choose your likeness</label>
+		<label for="likeness">Choose your likeness: </label>
 		<input type="range" id="likeness" min="1" max="100">
 		<br>
 			
